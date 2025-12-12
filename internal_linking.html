@@ -4,31 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>internal linking</title>
+    
+    <style>
+        body{
+        background-color : rgb(222, 192, 72);
+font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color: rgb(118, 16, 5);
+            font-size:45px;
+            text-decoration:underline;
+            font-family:geom;
+        }
+        .heading{
+            font-size: 46px;
+            font-family:geom;
+            text-decoration: underline;
+            color:rgb(69, 13, 121)
+
+        }
+p{
+    font-size: 28px;
+    font-family:cursive;
+    font-weight:lighter;
+}
+ol>li{
+    font-size:36px;
+    font-family: sekuya;
+    color:#062e40;
+    margin-bottom:20px;
+    
+
+}
+        #list_of_areas,#last_heading{
+            font-size:45px;
+            color:rgb(74, 3, 74);
+            font-family: geom;
+        }
+        hr{
+            border-top:2px solid red;
+            width:100;
+            margin-left:-180px;
+            margin-right:-100px;
+        }
+        ul>li,a{
+            color:rgb(4, 7, 182);
+            font-size:36px;
+            text-decoration:none;
+            font-weight:bold;
+            /* font-family:Georgia, 'Times New Roman', Times, serif; */
+            font-family:lora;
+        }
+        ol>li>img{
+            display:block;
+            margin-top:20px;
+        }
+        ol>li>p{
+            color:#061040;
+            font-family:geom;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geom:ital,wght@0,300..900;1,300..900&family=Sekuya&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Geom:ital,wght@0,300..900;1,300..900&family=Sekuya&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Successfull People in Different Areas</h1>
-    <h2>There are many people which get great success in their fields, but there are few people which get extraordinary success because they make extraordinary efforts.
+    <img src="images/forbes.webp" alt="FORBES RICHEST" width="100%">
+    <h2 style="font-family: cursive;">There are many people which get great success in their fields, but there are few people which get extraordinary success because they make extraordinary efforts.
         <!-- Different areas we include are like Business, Politics, Bollywood, Hollywood, Indians Business, Sports.</h2> -->
          </h2>
     <h2 id="list_of_areas" class="heading">List Of Different Areas</h2>
+    <ul>
+        <li>
          <p>
             <a href="#business">Business</a>
          </p>
-         
+         </li>
+         <li>
          <p>
             <a href="#bollywood">Bollywood</a>
          </p>
+         </li>
+         <li>
          <p>
             <a href="#hollywood">Hollywood</a>
-         </p>
-         <p>
+         </p></li>
+         <li>
+                 <p>
             <a href="#ind_bus">Indian Business</a>
-         </p>
+         </p></li>
+         <li>
          <p>
             <a href="#sport">Sports</a>
-         </p>
-
-
+         </p></li>
+         </ul>
+<hr>
+<main style="margin-left:39px;">
 <h2 class="heading" id="Business">Business</h2>
 <p>In Business, hardwork alone cannot make you bigger or richer, because there are approx 7 billions people around the world.
 
@@ -82,11 +163,13 @@
     <li>
         Lucy Guo
          <img src="images/lucy.webp" alt="Lucy Guo Scale Ai" height="300px" width="400px" style="display:block">
+        <p>
          Lucy Guo's success story is a tale of early hustle, unconventional choices like dropping out of Carnegie Mellon for the Thiel Fellowship, and becoming a self-made billionaire through co-founding Scale AI, an AI data-labeling firm, and later launching the creator platform Passes and Backend Capital venture fund. At 30, she became the youngest self-made woman billionaire, driven by a childhood of selling Pokémon cards and online assets, demonstrating that building a tech empire can stem from disciplined, risk-taking, and relentless pursuit of innovation in AI and the creator economy.
-    </li>
+    </p></li>
 </ol>
+<!-- </ul> -->
 <h2 class="heading" id="bollywood">Bollywood</h2>
-<p>ollywood's success is defined by massive box office hits, iconic stars like the "Three Khans" (Shah Rukh, Salman, Aamir) and Amitabh Bachchan, and massive global reach, with films like Dangal and Baahubali 2 dominating records, while actors like Akshay Kumar and Hrithik Roshan also consistently deliver blockbusters and high earnings. The industry thrives on huge domestic audiences, making Indian cinema a powerhouse, with recent trends showing high-grossing films like Jawan and Animal setting new first-week records. 
+<p>Bollywood's success is defined by massive box office hits, iconic stars like the "Three Khans" (Shah Rukh, Salman, Aamir) and Amitabh Bachchan, and massive global reach, with films like Dangal and Baahubali 2 dominating records, while actors like Akshay Kumar and Hrithik Roshan also consistently deliver blockbusters and high earnings. The industry thrives on huge domestic audiences, making Indian cinema a powerhouse, with recent trends showing high-grossing films like Jawan and Animal setting new first-week records. 
 </p>
 
 <ol>
@@ -96,17 +179,35 @@
             Shah Rukh Khan's success story is a classic rags-to-riches tale, rising from humble Delhi roots with no connections to become Bollywood's "King Khan" through sheer determination, hard work, and risk-taking, transitioning from TV to iconic romantic lead roles, embracing villainous parts to break norms, and building a business empire, all while inspiring with his resilient attitude and strong work ethic
         </p>
     </li>
-    <li>
-        <img src="images/shah.webp" alt="Shahrukh Khan" height="300px" width="400px" style="display:block">
+    <li>Salman Khan
+        <img src="images/salman.jpeg" alt="salman khan" height="300px" width="400px" style="display:block">
         <p>
-            
+Salman Khan's success story in Bollywood is a journey from background roles to superstardom, marked by early struggles, a breakout hit with Maine Pyar Kiya (1989), a shift to action icons in the 2010s with films like Dabangg, and becoming a major force with blockbuster hits, philanthropic work via Being Human, and hosting Bigg Boss, solidifying his status as an enduring, mass-appealing superstar. 
         </p>
         </li>
-        <img src="images/shah.webp" alt="Shahrukh Khan" height="300px" width="400px" style="display:block">
-        <img src="images/shah.webp" alt="Shahrukh Khan" height="300px" width="400px" style="display:block">
-        <img src="images/shah.webp" alt="Shahrukh Khan" height="300px" width="400px" style="display:block">
+        <li>Vijay Thalapathy
+            
+        <img src="images/vijay.jpg" alt="vijay thalapathy" height="300px" width="400px" style="display:block">
+        <p>Vijay's success story is a tale of perseverance and reinvention, transforming from an actor with a string of initial box office failures into one of the highest-paid and most influential superstars in Indian cinema, a feat achieved through a consistent run of blockbusters and a massive, loyal fan base</p>
+        </li>
+
+        <li>RajniKanth
+            
+        <img src="images/rajni.jpg" alt="Rajnikanth" height="300px" width="400px" style="display:block">
+        <p>Rajinikanth's success story is an inspiring rags-to-riches journey from a humble bus conductor to an Indian cinematic superstar, built on sheer determination, unique charisma, and iconic style (like his signature cigarette flip) that captivated audiences across India and beyond, earning him titles like "Thalaivar" and making him a cultural phenomenon, from early villain roles to blockbuster hits</p>
+        </li>
+
+        <li>Amitabh Bachan
+            
+        <img src="images/bachan.webp" alt="bachan" height="300px" width="400px" style="display:block">
+        <p>Amitabh Bachchan's success story is a testament to resilience, marked by initial rejections, a career-defining breakthrough, financial struggles, and a major comeback. After facing numerous rejections, he broke through with the film Zanjeer and became a superstar with roles like the "angry young man". He later faced near bankruptcy from his company, but a comeback began with his hosting role in Kaun Banega Crorepati and taking on new film and television</p>
     </li>
-    <li>
+    </ol>
+        
+<h2 class="heading" id="hollywood">Hollywood</h2>
+<p>Hollywood success stories often involve overcoming adversity, relentless work, strategic networking, and often a mix of talent and luck, exemplified by figures like Leonardo DiCaprio (tough start, big dreams), Samuel L. Jackson (highest-grossing actor), and pioneers like Walt Disney, showing transformation from struggle (Disney's early failures) to global iconic status through vision and persistence. </p>
+<ol>
+    <li>Tom Cruise
         <img src="images/tom.jpg" alt="Tom Cruise" height="300px" width="400px" style="display:block">
         <p>
 Tom Cruise's success story is one of relentless drive, versatility, and dedication to his craft, rising from early struggles with dyslexia and frequent moves to become a global superstar through iconic roles in Risky Business and Top Gun, earning critical acclaim in dramas like Born on the Fourth of July & Jerry Maguire, and cementing his action legacy with the Mission: Impossible franchise, all while known for performing his own dangerous stunts and maintaining box office power for decades
@@ -131,9 +232,93 @@ Brad Pitt's success story is one of perseverance from humble beginnings, startin
         <img src="images/jackie.jpg" alt="jackie chan" height="300px" width="400px" style="display:block">
         <p>Jackie Chan's success story is one of perseverance from poverty, rigorous training in Peking Opera and martial arts, early struggles as a child actor and stuntman, achieving stardom in Hong Kong with unique comedic action, and eventually conquering Hollywood by creating his own distinctive, dangerous, and humorous stunt-filled style, becoming a global icon known for his work ethic and dedication</p>
     </li>
+    <li>leonardo dicaprio
+        <img src="images/leo.webp" alt="leonardo dicaprio"
+        height="300px" width="400px" style="display:block">
+<p>Leonardo DiCaprio's success story is one of early promise, breakthrough roles, global superstardom via Titanic, and a career-long commitment to challenging, diverse films, marked by critical acclaim, numerous Oscar nominations, and finally winning Best Actor for The Revenant, solidifying his status as a leading Hollywood talent. From child actor struggles and intense rejection to becoming a cultural icon and respected actor, his journey highlights resilience, choice, and passion for cinema</p>
+    </li>
 
 </ol>
 
+<h2 class="heading" id="ind_bus">Indian Business</h2>
+<p>Stories of successful businessmen in India highlight diverse journeys, from tech entrepreneurs like Vijay Shekhar Sharma (Paytm), who started with a mobile recharge platform, to e-commerce founders like Sachin and Binny Bansal (Flipkart), who sold their company to Walmart for $16 billion. Other examples include Falguni Nayar (Nykaa), a former banker who built a beauty e-commerce giant, and Ritesh Agarwal (OYO Rooms), who disrupted the budget hospitality industry by starting his company at age 19</p>
+<ol>
+    <li>
+        Deepinder Goyal
+        <img src="images/dp.webp" alt="deepinder goyal"
+        height="300px" width="400px" style="display:block">
+        <p>Deepinder Goyal's success story is about identifying a real-world problem—ordering food was hard—while working at Bain & Company, leading him to co-found Foodiebay in 2008, later renamed Zomato, revolutionizing online food discovery, ordering, and delivery through perseverance, data-driven decisions, and building strong systems, transforming a small idea into a global food tech giant and a billion-dollar brand</p>
+    </li>
+    <li>
+        Nikhil Kamath
+        <img src="images/nikhil.jpeg" alt="nikhil Kamath"
+        height="300px" width="400px" style="display:block">
+        <p>
+            Nikhil Kamath's success story is about a school dropout who built India's largest stockbroker, Zerodha, by disrupting finance with low-cost, tech-driven platforms, becoming a self-made billionaire through discipline, risk-taking, and self-learning in trading, starting from a call center job and eventually co-founding ventures like Gruhas (VC) and True Beacon (Asset Management). His journey highlights defying traditional education for practical market mastery, impacting millions by making investing accessible, and now inspiring others through podcasts and philanthropy
+        </p>
+        </li>
+        <li>
+            Bhavish Aggarwal
+        <img src="images/bha.webp" alt="Bhavish Aggarwal"
+        height="300px" width="400px" style="display:block">
 
+        <p>Bhavish Aggarwal's success story is about transforming India's mobility with Ola, starting from a personal bad cab experience in 2010 to building a massive ride-hailing platform by deeply understanding local needs (cash payments, autos, smaller cities) and aggressively competing with Uber, then expanding into electric vehicles (Ola Electric) and AI (Krutrim), showcasing bold vision, rapid execution, and a focus on Indian innovation, making him a key figure in India's tech startup ecosystem</p>
+        </li>
+        <li>
+            Ritesh Agarwal
+        <img src="images/rit.jpg" alt="Ritesh Agarwal"
+        height="300px" width="400px" style="display:block">
+        <p>Ritesh Agarwal's success story is about transforming budget travel in India by founding OYO Rooms, starting from his early coding interests and modest Odisha background, dropping out of college to pursue his vision, getting recognized by the Thiel Fellowship (a prestigious $100k grant), and scaling OYO from a small portal (Oravel Stays) into a global hospitality giant, making him a self-made billionaire known for innovation and disruption. </p>
+        </li>
+        <li>
+            Binny Bansal
+        <img src="images/bin.png" alt="Binny Bansal"
+        height="300px" width="400px" style="display:block">
+        <p>Binny Bansal's success story is about co-founding Flipkart, India's e-commerce giant, with Sachin Bansal in 2007, transforming a small online bookstore into a massive online retailer that challenged global players like Amazon, leveraging innovations like Cash on Delivery (COD) and ultimately leading to a massive Walmart acquisition, solidifying his status as an e-commerce pioneer and active investor in new ventures like PhonePe</p>
+    </li>
+</ol>
+<h2 class="heading" id="sports">Sports</h2>
+<p>Sports success stories often feature overcoming immense odds, like Wilma Rudolph conquering childhood polio to become an Olympic track star, or Bethany Hamilton returning to pro surfing after losing an arm in a shark attack, proving resilience and determination trump adversity. Other inspiring tales involve humble beginnings, such as India's MS Dhoni rising from a railway ticket collector to cricket captain, or Geeta Phogat breaking barriers in wrestling from a patriarchal village to global medals, showing passion and grit can transform lives. </p>
+<ol>
+    <li>
+        Michael Jordan
+        <img src="images/mic.jpg" alt="Michael Jordan"
+        height="300px" width="400px" style="display:block">
+        <p>Michael Jordan's story is about unparalleled athletic dominance, fierce competitiveness, and global icon status, rising from being cut in high school to winning six NBA titles with the Chicago Bulls, inspiring millions, revolutionizing basketball, and building a massive business empire (Air Jordan), all fueled by an intense drive to overcome failure and achieve perfection. His career, marked by incredible dunks, game-winners, and a legendary "killer instinct," solidified him as arguably the greatest basketball player ever</p>
+        </li>
+        <li>
+            Tiger Woods
+        <img src="images/tiger.webp" alt="Tiger Woods"
+        height="300px" width="400px" style="display:block">
+        <p>Tiger Woods' story is one of unparalleled golfing dominance, breaking barriers as a mixed-race prodigy, achieving legendary status with numerous major wins (including 15 majors, second only to Jack Nicklaus), transforming the sport's appeal and finances, and overcoming immense personal challenges (scandals, injuries, public struggles) to make epic comebacks, most notably his 2019 Masters win, solidifying him as a global icon and one of golf's all-time greats</p>
+        </li>
+        <li>
+Cristiano Ronaldo
+            <img src="images/cri.jpeg" alt="            cristiano ronaldo
+"
+        height="300px" width="400px" style="display:block">
+        <p>Cristiano Ronaldo's success story is a classic "zero to hero" tale of immense talent meeting relentless hard work, starting from poverty in Madeira, Portugal, overcoming heart surgery as a teen, and rising through Sporting CP to become a global football icon at Manchester United, Real Madrid, Juventus, and Al-Nassr, earning multiple Ballon d'Ors, Champions League titles, and leading Portugal to Euro 2016 glory, all built on unparalleled dedication, physical fitness, and goal-scoring prowess</p>
+        </li>
+        <li>
+            lebron james
+        <img src="images/leb.jpg" alt="lebron james"
+        height="300px" width="400px" style="display:block">
+        <p>LeBron James' success story is a journey from challenging beginnings in Akron, Ohio, to becoming a global icon, marked by unparalleled NBA dominance, four championships with three teams, becoming the NBA's all-time leading scorer, immense business success (becoming the first active player billionaire), and significant philanthropic work through the I PROMISE School. His rise began as a high school phenom, earning him the #1 draft pick in 2003, and was fueled by relentless work ethic, strategic career moves (like joining Miami, returning to Cleveland, and winning titles with the Lakers), and a commitment to community empowerment, solidifying his legacy as one of basketball's greatest. </p>
+        </li>
+        <li>
+            Roger Federer
+        <img src="images/roge.jpg" alt="Roger Federer"
+        height="300px" width="400px" style="display:block">
+        <p>Roger Federer's success story is one of exceptional talent, relentless hard work, and remarkable mental fortitude, transforming from a fiery junior to a graceful "Maestro" of tennis, winning 20 Grand Slams and becoming a billionaire through smart business ventures and endorsements, all while embodying sportsmanship and impacting the game globally. His journey highlights dedication, learning from losses, mastering self-control, and building a powerful brand beyond the court, solidifying his legacy as an icon</p>
+    </li>
+</ol>
+
+<h2 id="last_heading">Successful People Mindset</h2>
+<p>
+    Successful people share mindsets focused on growth, action, and resilience, believing skills are developed through effort (growth mindset), setting clear goals, taking calculated risks, learning from failures as opportunities, and consistently taking purposeful action, while maintaining self-belief, responsibility, and a focus on solutions rather than complaints. They prioritize continuous learning, problem-solving, integrity, and self-care, seeing challenges as meaningful. 
+</p>
+
+<p><a href="#" style="font-family: sekuya;">Go To Top</a>
+</p>
 </body>
 </html>
