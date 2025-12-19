@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(19, 64, 5);
+        }
+    </style>
+    <link rel="stylesheet" href="form6styling.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <center>
+    <img src="../images/circle.png" alt="white-circle">
+    <img src="../images/hat.png" alt="degree hat">
+</center>
+    <h1>Scholarship Application</h1>
+
+    <main>
+    <h3>Apply for a Scholarship using this form. Please fill in all the details for the Scholarship committee to consider your application</h3>
+
+    <form action="
+    ">
+    <div id="student_name">
+        <label for="f-name">Student Name</label>
+        <br>
+
+        <div id="first_name">
+            <input type="text" id="f-name" name="first-name" required style="width:100%">
+            <br>
+            <label for="f-name" class="small">
+                First Name
+            </label>
+
+        </div>
+
+        <div id="last_name" class="small">
+<input type="text" id="l-name" name="last-name" required style="width:100%">
+            <br>
+            <label for="l-name">
+                Last Name
+            </label>
+        </div>
+    </div>
+
+    <!-- //student id start -->
+
+    <div>
+<label for="student_id">Student ID</label>
+<br>
+
+<input type="number"  id="student_id" name="student_id" required>
+
+    </div>
+
+    <div>
+        <label for="dob">DOB</label>
+        <br>
+        <input type="date" id="dob" name="dob" required>
+        <br>
+        <label for="dob" class="small">dd-MMM-yyyy</label>
+    </div>
+
+<div>
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email" name="email" required>
+</div>
+
+<div>
+    <label for="Phone">Phone</label>
+    <br>
+    <input type="tel" name="phone" id="phone" required>
+</div>
+
+<div>
+    <label for="grade">Grade</label>
+    <br>
+    <input type="number" name="grade" id="grade" required>
+</div>
+
+<div>
+    <label for="gpa">GPA</label>
+    <br>
+    <input type="number" name="gpa" id="gpa" required step="0.1">
+</div>
+
+<div>
+    <label for="achievements">Extra-Curricular achievements (if any)</label>
+    <br>
+    <input type="textarea" name="achievements" id="achievements" rows="30" cols="50" required>
+</div>
+
+<div>
+    <label for="certificate">Attach Certificate of your achievement</label>
+    <br>
+    <input type="file" name="certificate-file" id="certificate" required>
+</div>
+
+<div>
+    <label for="disability">Disabilities (if any)</label>
+    <br>
+    <input type="text" name="disability" id="disability">
+</div>
+
+<div>
+    <label for="income">Annual Income of Parents / Guardian</label>
+    <br>
+    <input type="number" name="annual-income" id="income" required>
+    <span>USD</span>
+</div>
+<div>
+    <label for="des-yourself">Describe Yourself</label>
+    <br>
+    <input type="textarea" cols="50" rows="30" required id="des-yourself" name="describe-yourself">
+</div>
+
+
+<div>
+    <label for="strength">Your Strength</label>
+    <br>
+    <input type="text" name="strength" id="strength" required>
+</div>
+
+<div>
+    <label for="weakness">Weakness</label>
+    <br>
+    <input type="text" name="weakness" id="weakness" required>
+</div>
+<div>
+
+</div>
+
+
+<input type="submit">
+<div>
+
+</div>
+</form>
+</main>
+</body>
+</html>

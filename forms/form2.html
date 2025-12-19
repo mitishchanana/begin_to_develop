@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>div{
+        margin-bottom:20px;
+    }
+    </style>
+</head>
+<body>
+    <h1>YEARLY TAX APLLICATION</h1>
+    <div>
+        <label for="name" >Name</label>
+        <br>
+        <input type="text" id="name" name="name" required placeholder="ajay sharma">
+    </div>
+    <div>
+        <label for="mail">Email</label>
+        <br>
+        <input type="email" id="mail" name="email" placeholder="ajaysharma02@gail.com" required>
+    </div>
+    <div>
+        <label for="phone_no.">Phone Number</label>
+        <br>
+        <input type="tel" id="phone_no" name="contact" >
+    </div>
+    <div>
+        <label for="date_file">Date Of Filling Tax</label>
+        <br>
+        <input type="date" id="date_file" name="date of filling tax" required>
+
+    </div>
+
+    <p>Select your Country</p>
+    <div style="border:2px solid black">
+        <input type="radio" id="india" value="india" name="country"> 
+        <label for="india">INDIA</label>
+<br>
+        <input type="radio" id="usa" value="usa" name="country"> 
+        <label for="usa">USA</label>
+<br>
+
+<input type="radio" id="china" value="china" name="country"> 
+        <label for="china">CHINA</label>
+
+    </div>
+
+    <div>
+        <label for="file">
+            Upload File
+        </label>
+        <br>
+        <input type="file" for="file" name="file" required>
+    </div>
+    <br>
+    <input type="submit" value="submit">
+
+</body>
+</html>

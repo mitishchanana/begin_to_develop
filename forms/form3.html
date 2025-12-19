@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border:3px solid red;
+        }
+        input{
+            margin-right:20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>What Skills do you have:-</h2>
+<form action="">
+    <div>
+        <input type="checkbox" value="html-css" id="html-css" name="skill"> 
+        <label for="html-css">HTML - CSS</label>
+        <br>
+        
+        <input type="checkbox" value="javascript" id="javascript" name="skill"> 
+        <label for="javascript">javascript</label>
+        <br>
+        
+        <input type="checkbox" value="node-js" id="node-js" name="skill"> 
+        <label for="node-js">node-js</label>
+        <br>
+        <input type="checkbox" value="react" id="react" name="skill"> 
+        <label for="react">react</label>
+        <br>
+        <input type="checkbox" value="python" id="python" name="skill"> 
+        <label for="python">python</label>
+        <br>
+        <input type="checkbox" value="c++" id="c++" name="skill"> 
+        <label for="c++">c++</label>
+        <br>
+        <input type="checkbox" value="machine-learning" id="machine-learning" name="skill"> 
+        <label for="machine-learning">machine-learning</label>
+        <br>
+        <input type="checkbox" value="communication" id="communication" name="skill"> 
+        <label for="communication">communication</label>
+        <br>
+    </div>
+
+    <h2>Select Your Country</h2>
+    <select name="country" multiple>
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="china">china</option>
+        <option value="australia">australia</option>
+        <option value="bhutan">bhutan</option>
+        <option value="indonesia">indonesia</option>
+        <option value="dubai">dubai</option>
+        <option value="uk">uk</option>
+        <option value="london">london</option>
+
+    </select>
+
+    <br><br><br>
+    <label for="message">Any Message</label>
+    <br>
+    <textarea name="message" id="message" rows="10" cols="30"></textarea><br>
+        <!-- <input type="submit" value="Proceed"> -->
+    <!-- <input type="submit" value="ENTER"> -->
+
+    
+</form>
+ 
+<button type="submit" onclick="alert('Hello world!')">
+    <img src="../images/tap.png" alt="tap here">
+</button>
+</body>
+</html>

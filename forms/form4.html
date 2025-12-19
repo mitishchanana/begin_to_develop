@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form4_style.css">
+</head>
+<body>
+    <h1>Contact</h1>
+    <form action="">
+        <div>
+            <label for="first_name">First name</label>
+            <br>
+            <input type="text" id="first_name" name="first_name" required>
+        </div>
+
+        <div>
+            <label for="last_name">Last name</label>
+            <br>
+            <input type="text" id="last_name" name="last_name" required>
+        </div>
+          <div>
+            <label for="phone">Phone</label>
+            <br>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+
+        <p>Date and time</p>
+
+        <div id="big-box">
+
+            <div id="day-box">
+        <label for="day">Day</label>
+        <br>
+        <input type="number" id="day" name="date" required >
+        </div>
+
+        <div id="month-box">
+            <label for="month">Month</label>
+            <br>
+            <select name="month" id="month">
+                <option value="0"></option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+        </div>
+
+        <div id="year-box">
+            <label for="year">Year</label>
+            <br><input type="number" id="year" name="year" required>
+        </div>
+
+        <div id="time">
+            <label for="time">Time</label>
+            <br>
+            <input type="time" id="time" name="time" required>
+        </div>
+
+    </div>
+
+<div class="unstyle">
+
+    <p>Seating preference</p>
+    <br>
+    <input type="radio" value="indoor" id="indoor" name="seating_pref" checked>
+    <label for="indoor">Indoor</label>
+    <br>
+    <input type="radio" value="outdoor" id="outdoor" name="seating_pref">
+    <label for="outdoor">Outdoor</label>
+    </div>
+<br>
+    <div>
+        <label for="add_req">Additional requests</label>
+        <br><input type="text" id="add_req" name="add_req" required>
+    </div>
+
+    <input type="checkbox" value="yes_subscribed" name="subscribe" id="subscribe">
+    <label for="subscribe">Yes, subscribe me to your newsletter.</label>
+
+    <br>
+    <input type="submit" value="Request booking">
+    </form>
+</body>
+</html>

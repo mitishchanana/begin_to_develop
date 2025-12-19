@@ -1,0 +1,127 @@
+body{
+    /* background-color: orangered; */
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+h1{
+    font-weight: lighter;
+    text-align:center;
+    font-size:55px;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+p,label{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(58, 58, 58);
+    font-size:12px;
+    display:inline-block;
+    margin-bottom:8px;
+}
+
+input,option,select{
+    border:1px solid grey;
+    border-color:rgb(58, 58, 58);
+    border-radius: 0%;
+    width:100%;
+    height:30px;
+    display:inline-block;
+    margin-bottom: 15px;
+}
+
+#big-box{
+    /* border:2px solid red; */
+}
+#big-box>div{
+    display:inline-block;
+    /* border:2px solid red; */
+}
+
+#day-box{
+    /* border:2px solid red; */
+    width:13%;
+    margin-right: 17px;
+
+}
+
+#month-box{
+    /* border:2px solid red; */
+ width:28%;
+    margin-right: 17px;
+}
+
+#year-box{
+    /* border:2px solid red; */
+    width:15%;
+    margin-right: 17px;
+
+}
+
+/* #seat{
+    border:5px solid red;
+} */
+#seat input{
+    display:inline;
+    /* background-color: aqua; */
+    width:15px;
+    margin-bottom: 0px;
+    /* border:5px solid red; */
+}
+
+#seat label{
+    display:inline-block ;
+    /* background-color: aqua; */
+    /* margin-bottom:20px; */
+    /* margin-bottom:100px; */
+    /* padding-bottom: 20px; */
+    margin-top:-80px;
+    margin-bottom:0px;
+}
+#out{
+    margin-top:-10px;
+    /* border:2px solid red; */
+}
+
+
+.unstyle input, .unstyle label, input[type=checkbox]{
+    /* all:unset; */
+    border:initial;
+    border-color:initial;
+    border-radius: initial;
+    width:15px;
+    height:initial;
+    display:inline-block;
+    margin-bottom: initial;
+
+
+    /* //label */
+      font-weight: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color:initial;
+    font-size:initial;
+    color:rgb(58, 58, 58);
+    font-size:12px;
+
+
+}
+
+ 
+ 
+/* input[type=checkbox]{
+    display:inline-block;
+    width:15px;
+} */
+
+label[for=subscribe]{
+    display:inline-block;
+    /* color:red;  */
+    /* background-color:yellow; */
+    padding-top:-10px;
+}
+
+input[type="submit"]
+{
+    background-color:black;
+    color:white;
+}
