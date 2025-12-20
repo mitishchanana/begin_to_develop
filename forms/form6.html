@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         body{
-            background-color: rgb(19, 64, 5);
+            background-color: rgb(0, 0, 0);
         }
     </style>
     <link rel="stylesheet" href="form6styling.css">
@@ -15,14 +15,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body> 
+    <main>
     <center>
     <img src="../images/circle.png" alt="white-circle">
     <img src="../images/hat.png" alt="degree hat">
 </center>
     <h1>Scholarship Application</h1>
 
-    <main>
+    <!-- <main> -->
     <h3>Apply for a Scholarship using this form. Please fill in all the details for the Scholarship committee to consider your application</h3>
+        <section>
 
     <form action="
     ">
@@ -47,7 +49,6 @@
             </label>
         </div>
     </div>
-
     <!-- //student id start -->
 
     <div>
@@ -93,7 +94,8 @@
 <div>
     <label for="achievements">Extra-Curricular achievements (if any)</label>
     <br>
-    <input type="textarea" name="achievements" id="achievements" rows="30" cols="50" required>
+    <textarea name="achievements" id="achievements" rows="8" cols="99">
+        </textarea>
 </div>
 
 <div>
@@ -117,7 +119,8 @@
 <div>
     <label for="des-yourself">Describe Yourself</label>
     <br>
-    <input type="textarea" cols="50" rows="30" required id="des-yourself" name="describe-yourself">
+    <textarea name="achievements" id="des-yourself" rows="8" cols="99" required>
+        </textarea>
 </div>
 
 
@@ -137,11 +140,16 @@
 </div>
 
 
-<input type="submit">
-<div>
+<!-- <input type="submit"> -->
+<center>
+<button type="submit" >
+Submit
 
-</div>
+ </button>
+</center>
+
 </form>
+</section>
 </main>
 </body>
 </html>
