@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Employment Separation Form
+    </h1>
+
+    <main>
+        <form action="">
+            <div id="full-name">
+                <label for="f_name">Full Name</label>
+                    <br>
+                <div id="first-name">
+                    <input type="text" id="f_name" name="first_name" required>
+                    <br>
+                    <label for="f_name">First Name</label>
+                </div>                
+
+                <div id="last-name">
+                    <input type="text" id="l_name" name="last_name" required>
+                    <br>
+                    <label for="l_name">Last Name</label>
+                </div>                
+                
+            </div>
+
+            <div>
+                <label for="employee_id">Employee ID</label>
+                <br>
+                <input type="number" id="employee_id" name="employee-id" required>
+            </div>
+
+            <div>
+                <label for="personal-email">Personal Email</label>
+                <br>
+                <input type="email" id="personal-email" name="personal_email" required>
+            </div>
+
+            <div>
+                <label for="last-working-date">Last Working Date</label>
+                <br>
+                <input type="date" name="last_working_date"
+                id="last-working-date" required>
+            </div>
+
+            <div>
+                <label for="reason-departure">Reason for Departure</label>
+                <br>
+                <input type="text" name="reason-departure" id="reason-departure" required>
+            </div>
+
+            <div>
+                <label>Return of All Company Property</label>
+
+                <div class="box">
+                <input type="radio" id="yes" name="return-company-property" value="yes">
+                <label for="yes">Yes</label>
+                </div>
+                <div class="box">
+                <input type="radio" id="no" name="return-company-property" value="no">
+                <label for="no">No</label>
+                </div>
+                <div class="box">
+                <input type="radio" id="other" name="return-company-property" value="other">
+                <label for="other">Other</label>
+                </div>
+            </div>
+
+            <div>
+                <label for="exit-interview-schedule">Exit Interview Schedule</label>
+                <br>
+                <input type="datetime-local" id="exit-interview-schedule" name="exit-interview-schedule" required>
+                <br>
+                <label for="exit-interview-schedule">
+                    dd-MMM-yyyy HH:MM AM/PM
+                </label>
+            </div>
+            <div>
+                <label for="comments">Comments/ Feedback</label>
+                <br>
+                <textarea name="comments/feedback" id="comments" rows="8" cols="88"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
