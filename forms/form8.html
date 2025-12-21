@@ -4,27 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="form8styling.css">
 </head>
 <body>
-    <h1>
+    <header>
+    <p>
         Employment Separation Form
-    </h1>
-
+    </p>
+</header>
     <main>
         <form action="">
             <div id="full-name">
-                <label for="f_name">Full Name</label>
+                <label for="f_name" style="margin-top:10px;">Full Name</label>
                     <br>
                 <div id="first-name">
                     <input type="text" id="f_name" name="first_name" required>
                     <br>
-                    <label for="f_name">First Name</label>
+                    <label for="f_name" class="small">First Name</label>
                 </div>                
 
                 <div id="last-name">
                     <input type="text" id="l_name" name="last_name" required>
                     <br>
-                    <label for="l_name">Last Name</label>
+                    <label for="l_name" class="small">Last Name</label>
                 </div>                
                 
             </div>
@@ -45,7 +47,9 @@
                 <label for="last-working-date">Last Working Date</label>
                 <br>
                 <input type="date" name="last_working_date"
-                id="last-working-date" required>
+                id="last-working-date" required >
+                <br>
+                <label for="last-working-date" class="small">dd-MMM-yyyy</label>
             </div>
 
             <div>
@@ -57,7 +61,7 @@
             <div>
                 <label>Return of All Company Property</label>
 
-                <div class="box">
+                <div class="box" >
                 <input type="radio" id="yes" name="return-company-property" value="yes">
                 <label for="yes">Yes</label>
                 </div>
