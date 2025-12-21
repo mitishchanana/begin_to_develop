@@ -7,6 +7,7 @@ body{
     background-color:black;
     padding-left: 8.5%;
     padding-right: 8.5%;
+    margin-bottom:0px;
 }
 
 p{
@@ -46,7 +47,7 @@ label,input{
 label{
     font-size: 18px;
     font-weight: 600;
-    margin-top:35px;
+    margin-top:40px;
 }
 #first-name, #last-name{
     display: inline-block;
@@ -66,15 +67,15 @@ label{
     
 }
 
-input{
+input,textarea{
     margin-top: 8px;
     margin-bottom: 5px;
     font-size:15px;
     height:37px;
     border-radius:4px;
     border:1px solid rgb(0, 153, 255);
-    background-color:rgb(237, 248, 250);
-    width:90%;
+    background-color:rgb(230, 249, 252);
+    width:94.7%;
 }
 
 .small{
@@ -104,7 +105,7 @@ input{
     border-radius:4px;
     border:1.5px solid rgb(3, 94, 154);
     background-color:rgb(237, 248, 250);
-    width:90%;
+    width:94.7%;
  margin-top: 8px;
     margin-bottom: 5px;  
     box-sizing: border-box;
@@ -121,8 +122,27 @@ input[type="radio"]{
 input[type="radio"]{
     height:17px;
     width:18px;
-    accent-color:rgb(25, 250, 17);
+    accent-color:darkmagenta;
 }
 .box label{
     color:rgb(3, 94, 154);
 }
+
+button{
+    margin-top:50px;
+    margin-bottom:50px;
+
+    border:1px solid rgb(11, 142, 178);
+     background-color: rgb(29, 131, 131);
+    color:white;
+    width:17%;
+    height:50px;
+    border-radius:10px;
+    font-size:20px;
+    font-weight: 600;
+    }
+
+    textarea{
+        font-family: impact;
+        ;
+    }
