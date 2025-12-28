@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1{
+        color:rgb(110, 6, 255);
+        font-variant: small-caps;
+        text-transform: capitalize;
+    }
+
+    .listing{
+        border:4px solid darkblue;
+        background-color:aquamarine;
+        padding-left:5vw;
+        & > ol > p{
+            color:darkblue;
+            text-decoration: underline;
+            font-size:38px;
+            &:hover{
+                color:red;
+            }}
+
+        & li{
+            color:rgb(2, 83, 56);
+            font-size:28px;
+            font-weight: 700;
+            text-decoration: none;
+            &:hover{
+                color:rgb(28, 8, 246);
+            }
+            &::marker{
+                color:blue;
+                font-size:40px;
+                list-style-type: disc;
+                 
+            }
+        }
+        }
+    
+</style>
+</head>
+<body>
+    <h1>nesting selector</h1>
+    <div class="listing">
+        <ol>
+            <p>list of biggest actors</p>
+            <li>shahrukh khan</li>
+            <li>salan khan</li>
+            <li>tom cruise</li>
+            <li>vijay thalapathy</li>
+            <li>dhanush</li>
+            <li>allu arjun</li>
+            <li>amitabh bachan</li>
+            <li>prabhas</li>
+            <li>nani</li>
+            <li>jackie chan</li>
+            <li>the rock</li>
+        </ol>
+    </div>
+</body>
+</html>

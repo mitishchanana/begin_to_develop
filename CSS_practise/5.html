@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p{
+            font-size:30px;
+            font-weight: bold;
+            font-variant: small-caps;
+            text-transform: capitalize;
+        }
+
+        div h1{
+            color: red;
+            text-transform: uppercase;
+            text-shadow: darkblue 3px 3px;
+        }
+        div span{
+            /* text-transform: capitalize; */
+            font-variant: small-caps;
+        }
+
+        /* input[type="submit"]::hover{ */
+
+        /* } */
+
+        /* a:hover{} */
+        body{
+            background-color:burlywood;
+        }
+
+        ul{
+            color:purple;
+            font-size:large;
+            list-style-type:square;
+        }
+
+        li::marker{
+            color:brown;
+            font-size: 32px;
+        }
+        h1::after{
+            content:url(../images/hat.png);
+            
+            
+        }
+input{
+            width:20vw;
+            height: 4vh;
+            /* color:white; */
+            margin-bottom:4vh;
+            background-color: rgb(81, 81, 81);
+            border:3px solid rgb(204, 0, 0);
+
+            
+}
+
+input::placeholder{
+    color:black;
+    font-size:15px;
+}
+
+input:placeholder-shown{
+    color:red;
+}
+
+p:hover{
+    background-color:grey;
+}
+        input[type="submit"]{
+            color:white;
+            background-color: aqua;
+            width:10vw;
+            height:10vh;
+            font-size:1.5rem;
+        }
+        input[type="submit"]:hover{
+            background-color: blue;
+        }
+
+        h1:hover{
+            color:blue;
+            text-decoration: underline;
+            text-shadow: red 3px 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <input type="text" name="name" placeholder="Name">
+        <br>
+<input type="submit" value="submit">
+    </form>
+
+
+    <ul>
+        <li>mercedes</li>
+        <li>audi</li>
+        <li>BMW</li>
+        <li>ferrari</li>
+        <li>laborgini</li>
+        <li>volvo</li>
+    </ul>
+
+    <!-- <button type="submit">Submit</button> -->
+    <div>
+        <h1>hello world</h1>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dignissimos explicabo reprehenderit voluptatem? Sequi est dolorem asperiores, voluptatibus, ducimus libero at in voluptate, nemo ipsum assumenda recusandae. Impedit repellendus id libero, temporibus vero minus quisquam dolore error commodi eum aspernatur alias odio natus perferendis non quia tenetur eveniet, exercitationem culpa itaque. Assumenda enim reiciendis doloremque accusantium necessitatibus repudiandae autem sequi nobis, ipsa voluptatum neque harum, laborum saepe illo voluptate animi eum quod, culpa inventore voluptatibus odit velit.</span>
+        <p>lorem55
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quisquam nemo ullam beatae, explicabo accusamus veniam quam nostrum in quae nulla ad nesciunt iure soluta maiores. Enim animi doloremque sit ipsum quidem, tempore asperiores architecto. Commodi qui minima vel, accusamus provident temporibus veniam voluptatibus distinctio praesentium! Sapiente natus quis molestias? Consequatur minus explicabo animi voluptate!
+
+        </p>
+        <h1>Lorem ipsum dolor sit amet.</h1>
+    </div>
+</body>
+</html>
