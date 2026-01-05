@@ -1,0 +1,29 @@
+#container{
+    border:2px solid black;
+    height:75vh;
+    width:675px;
+    background-color: aquamarine;
+    display:flex;
+    flex-direction:column;
+}
+h1{
+    font-size: small;
+}
+div{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+}
+
+#div1{
+    background-color: blue;
+}
+#div2{
+    background-color: rgb(236, 115, 17);
+}
+#div3{
+    background-color: rgb(179, 255, 0);
+}
+#div4{
+    background-color: rgb(230, 16, 222);
+}
